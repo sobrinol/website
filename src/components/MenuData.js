@@ -3,10 +3,8 @@ import "./NavbarStyles.css";
 export const MenuData = [
     {
         title: "Home",
-        url: "App.js",
+        url: "#",
         cName: "nav-links",
-        
-        
     },
     {
         title: "About",
