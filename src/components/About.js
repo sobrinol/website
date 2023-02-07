@@ -1,17 +1,11 @@
 import React from "react";
 import "./AboutStyle.css";
-import {Document, Page} from "react-pdf";
-
-
-/*
-* Work on PDF plsplsplsspl for resume!!!
-*/
 
 const About = () => {
     return (
         <div className = 'about'>
             <div className = 'content'>
-            
+           
                 <div className = "sec2">
                     <h2>About</h2>
                     <span className = "line"></span>
