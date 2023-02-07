@@ -1,0 +1,22 @@
+.image-links{
+    background: transparent;
+    border: transparent;
+}
+
+.image-links img{
+    width: 75px;
+}
+
+.button-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 175px);
+    list-style-type: none;
+
+}
+
+@media screen and (max-width: 850px){
+
+
+
+}
+

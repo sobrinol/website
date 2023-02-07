@@ -1,0 +1,147 @@
+.NavbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 30px;
+    background-color: rgba(0, 0, 0, 0.919);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+    
+}
+
+.logo{
+    color: rgba(243, 243, 255, 0.759);
+    transition: all 0.5s ease-out;
+    justify-self: start;
+    cursor: pointer;
+    
+}
+
+.logo:hover{
+    color: rgba(255, 255, 255); 
+    transition: all .3s ease-in;
+}
+
+.fa-reacteurope{
+    font-size: 1.6rem;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;    
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+    
+}
+
+.nav-links{
+    text-decoration: none;
+    color: rgba(243, 243, 255, 0.759);
+    transition: all 0.5s ease-out;
+    padding: 1rem; 
+    white-space: nowrap;
+    
+}
+
+.nav-links:hover{
+    color: rgba(255, 255, 255); 
+    transition: all .3s ease-in;
+}
+
+.fa-bars, .fa-times{
+    color: rgba(243, 243, 255, 0.90);
+}
+
+.menu-icons{
+    display: none;
+}
+
+.nav-links-mobile{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    text-decoration: none;
+    background-color: rgba(185, 185, 185, 0.2);
+    border-radius: 20px;
+    transition: all .3s ease-in;
+    color: rgba(243, 243, 255, 0.759); 
+}
+
+.nav-links-mobile:hover{
+    background-color: rgba(185, 185, 185, 0.307);
+    color: rgba(255, 255, 255); 
+    transition: all .3s ease-in;
+}
+
+@media screen and (max-width: 940px){
+    .NavbarItems{
+        z-index: 99;
+    }
+
+    /*
+    *MAKE LOGO NOT ICON
+    */
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgba(30, 30, 30, 0.75);
+        box-shadow: 0 8px 32px 0 rgba(0, 38, 135, alpha, .37);
+        backdrop-filter:  blur(5px);
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 110%;
+        align-items: stretch;
+        padding: 90px 0 30px 0;
+        margin: 0;
+        z-index: -1;
+        transition: top .5s ease;
+    }
+
+    .nav-menu.active{
+        left: 0%;
+        transition: all .5s ease;
+    }
+
+    .nav-links{
+        display: block;
+        widows: 100%;
+        padding: 2rem 0;
+        color: rgba(243, 243, 255, 0.759);
+        margin-left: -5px;
+    }
+
+    .nav-links:hover{
+        color: rgba(255, 255, 255); 
+        background-color: rgba(185, 185, 185, 0.2);
+    }
+
+    .menu-icons{
+        display: block;
+    }
+
+    .nav-links-mobile{
+        display: inline-block;
+        padding: .5rem 1rem;
+        text-decoration: none;
+        background: rgba(185, 185, 185, 0.2);
+        border-radius: 20px;
+        transition: all .3s ease-in;
+        color: rgba(243, 243, 255, 0.759); 
+    }
+}

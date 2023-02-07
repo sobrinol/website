@@ -1,0 +1,40 @@
+.about{
+    width: 100%;
+    margin: auto;
+    padding: 8rem 1rem 0 1rem;
+    background-color: var(--overlay);
+    z-index: 1;
+}
+
+
+/*
+* Check for font size
+*/
+.about .content{
+    width: 50%;
+    margin: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: .75rem;
+}
+
+.about h2{
+    font-size: 3rem;
+}
+
+
+/*
+* Work on this for background image!!
+*/
+.about::before{
+    content: '';
+    width: 100%;
+    background: url(./images/internetcafe.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
