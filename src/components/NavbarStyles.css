@@ -3,31 +3,27 @@
     justify-content: space-between;
     align-items: center;
     font-size: 1.2rem;
-    padding: 0 30px;
+    padding: 0px 30px;
     background-color: rgba(0, 0, 0, 0.919);
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.7);
     width: 100%;
-    height: 80px;
+    height: 75px;
     position: fixed;
     z-index: 2;
-    
 }
 
-.logo{
+.fa-react{
     color: rgba(243, 243, 255, 0.759);
     transition: all 0.5s ease-out;
     justify-self: start;
     cursor: pointer;
-    
+    font-size: 1.5rem;
+    display: inline;
 }
 
-.logo:hover{
+.fa-react:hover{
     color: rgba(255, 255, 255); 
     transition: all .3s ease-in;
-}
-
-.fa-reacteurope{
-    font-size: 1.6rem;
 }
 
 .nav-menu{
@@ -37,8 +33,7 @@
     list-style: none;
     align-items: center;
     text-align: center;
-    justify-content: end;
-    
+    justify-content: end; 
 }
 
 .nav-links{
@@ -51,12 +46,15 @@
 }
 
 .nav-links:hover{
-    color: rgba(255, 255, 255); 
+    color: rgb(255, 255, 255);
     transition: all .3s ease-in;
 }
 
 .fa-bars, .fa-times{
     color: rgba(243, 243, 255, 0.90);
+}
+.fa-times{
+    font-size: 140%;
 }
 
 .menu-icons{
@@ -79,29 +77,26 @@
     transition: all .3s ease-in;
 }
 
-@media screen and (max-width: 940px){
+@media screen and (max-width: 650px){
     .NavbarItems{
         z-index: 99;
     }
     
-    .logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    .fa-react{
+        margin-left: 47%;
     }
 
     .nav-menu{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background: rgba(30, 30, 30, 0.75);
+        background: rgba(0, 0, 0, 0.75);
         box-shadow: 0 8px 32px 0 rgba(0, 38, 135, alpha, .37);
         backdrop-filter:  blur(5px);
-        border-radius: 20px;
         width: 100%;
-        height: auto;
+        height: 1200%;
         position: absolute;
-        top: -700%;
+        top: -1200%;
         left: 0;
         align-items: stretch;
         padding: 90px 0 30px 0;

@@ -2,7 +2,7 @@
     width: 100%;
     margin: auto;
     padding: 5rem 1rem 5rem 1rem;
-    background-color: var(--overlay);
+    background-color: black;
 }
 
 /*
@@ -11,37 +11,73 @@
 .content{
     width: 100%;
     margin: auto;
-    color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     list-style-type: none;
 
 }
 
-.sec2 h2{
-    font-size: 3rem;
-    text-align: center;
-}
-
-.sec2 a{
-    color: inherit;
+.msu{
+    color: rgba(47, 47, 224, 0.874);
 }
 
 .sec2{
+    color: rgba(255, 255, 255, 0.763);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3rem;
+    padding: 1rem;
+}
+
+.sec2 h2{
+    font-size: 3rem;
+    text-align: center;
+    
 }
 
 .sec2 p:first-of-type{
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
-.resume-button{
-    margin-top: 1rem;
-}
-
-.content img{
+.cyberhawks{
     margin: auto;
+    opacity: 85%;
+    width: 80%;
+}
+
+.resume-button{    
+    margin: 2rem;
+    padding: .75rem 1rem;
+    white-space: nowrap;
+    text-decoration: none;
+    background-color: rgba(185, 185, 185, 0.2);
+    border-radius: 15px;
+    transition: all .3s ease-in;
+    text-align: center;
+    color: rgba(243, 243, 255, 0.759); 
+    
+}
+
+.resume-button:hover{
+    background-color: rgba(185, 185, 185, 0.307);
+    color: rgba(255, 255, 255); 
+    transition: all .3s ease-in;
+}
+
+@media screen and (max-width: 650px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: auto;
+        text-align: center;
+    }
+
+    .cybwerhawks{
+        width: 90%;
+    }
+
+    .resume-button{    
+        font-size: 20px;
+    }
 }

@@ -6,15 +6,13 @@
     z-index: 1;
 }
 
-.home:before{
-    content: '';
-    background: url("./images/houseburngirl.jpg") no-repeat center center/cover;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
+.snowymountain{
+    position:absolute;
     z-index: -1;
+    top:0;
+    left:0;
+    width:100%;
+    height: inherit;
 }
 
 .home .content{
@@ -31,9 +29,11 @@
 }
 
 .home .content p:first-child{
+    color: rgba(255, 255, 255, 0.141);
+    text-shadow: 2px 2px 5px rgba(0, 40, 159, 0.63);
     font-weight: bold;
     font-size: 5rem;
-    text-shadow: 2px 2px 5px black;
+    
 }
 
 .home .content p:nth-child(2){
@@ -43,30 +43,37 @@
 
 }
 
-@media screen and (max-width: 940px){
-    .home:before{
-        content: '';
-        background: url("./images/houseburngirl.jpg") no-repeat center center/cover;
-        position: absolute;
-        height: 100%;
+@media screen and (max-width: 650px){
+
+    .home{
+        display: flex;
         width: 100%;
-        top: 0;
-        left: 0;
-        z-index: -1;
+        height: 100vh;
+        position: relative;
+        background-color: white;
+        z-index: 1;
     }
 
     .home .content{
-        width: 460px;
+        width: 100%;
         align-items: left;
     }
 
-
     .home .content p:first-child{
         font-weight: bold;
-        font-size: 5rem;
+        font-size: 375%;
+        position: relative;
     }
 
     .home .content p:nth-child(2){
-        font-size: 3rem;
+        font-size: 35px;
+        position: relative;
+    }
+
+    .button-menu-wrapper{
+        width: 100%;
+        display: inline-block;
+        padding: 15px;
+        
     }
 }

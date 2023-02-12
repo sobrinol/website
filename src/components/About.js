@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutStyle.css";
-import cyberhawks from "./images/cyberhawks.jpg"
+import cyberhawks from "./images/coding.jfif";
+import resume from "./files/resume.pdf";
 
 const About = () => {
     return (
@@ -9,13 +10,15 @@ const About = () => {
                 <img className = "cyberhawks" src = {cyberhawks} alt = "cyberhawks"></img>
                 <div className = "sec2">
                     <h2>About</h2>
-                    <p>I am a student from Harrison, NJ studying Computer Science (B.S.) at <a href = "https://www.montclair.edu/">Montclair State University!</a></p>
-                    <p>As a kid, my father owned a computer cafe.</p>
-                    <p>Maintaining computers and editing time-managing<br>
-                    </br>software was how I was introduced to computer science.</p>
+                    <p>I am a student from Harrison, NJ studying Computer Science at <a href = "https://www.montclair.edu/academics/computer-science/" className = "msu" target = "_blank">Montclair State University!</a></p>
+                    <p>I am also a varsity player in Montclair State University's Valorant team</p>
+                    <br></br>
+                    <p>As a kid, my father owned a computer cafe;</p>
+                    <p>maintaining computers and editing time-managing<br>
+                    </br>software was how I was introduced to computer science</p>
                     <br></br>
                     <p>Ever since, a child's imagination and sense to engineer has never stopped running</p>
-                    <button className = "resume-button">View My Resume</button>
+                    <a href= {resume} className = "resume-button" target = "_blank">View My Resume</a>
                 </div>
             </div>
         </div>

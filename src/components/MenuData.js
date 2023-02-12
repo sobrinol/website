@@ -13,7 +13,7 @@ export const MenuData = [
         
     },
     {
-        title: "Service",
+        title: "Projects",
         url: "#",
         cName: "nav-links",
         
