@@ -21,13 +21,13 @@ const Projects = () => {
                     <h2>Website Portfolio</h2>
                     <ul className = "list">
                         <li>
-                            - Utilized ReactJS and its libraries to make a single page app
+                            - Utilized ReactJS and its libraries to make a single page portfolio website
                         </li>
                         <li>
-                            - Broadened knowledge in web design with ReactJS
+                            - Broadened knowledge in web design with ReactJS, Git, NodeJS, and JavaScript
                         </li>
                         <li>
-                            - blahblahblahblah
+                            - Accomplished my first project, I would still love to add more to this site
                         </li>
                     </ul>
                 </div>
@@ -36,13 +36,13 @@ const Projects = () => {
                     <h2>iOS Activity Monitor Widget</h2>
                     <ul className = "list">
                         <li>
-                            - Used and learnt ReactJS and JSX to make a single page app
+                            - IN THE WORKS
                         </li>
                         <li>
-                            - Broadened knowledge in web design with React libraries
+                            - X
                         </li>
                         <li>
-                            - blahblahblahblah
+                            - X
                         </li>
                     </ul>
                 </div>

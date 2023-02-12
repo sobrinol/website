@@ -3,31 +3,30 @@ import "./NavbarStyles.css";
 export const MenuData = [
     {
         title: "Home",
-        url: "#",
+        url: "Home",
         cName: "nav-links",
     },
     {
         title: "About",
-        url: "#",
+        url: "About",
         cName: "nav-links",
         
     },
     {
         title: "Projects",
-        url: "#",
+        url: "Projects",
         cName: "nav-links",
         
     },
     {
         title: "Contact",
-        url: "#",
+        url: "Contact",
         cName: "nav-links",
        
     },
-    {
-        title: "Sign Up",
-        url: "#",
-        cName: "nav-links-mobile",
-    },
-
+    // {
+    //     title: "Sign Up",
+    //     url: "#",
+    //     cName: "nav-links-mobile",
+    // },
 ]

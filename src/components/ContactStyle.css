@@ -1,0 +1,66 @@
+.contact{
+    position: absolute;
+    height: 175px;
+    width: 100%;
+    background-color: black;
+}
+
+.contact-content{
+    padding: 2%;
+    color: white;
+    display: grid;
+}
+
+.contact-content li{
+    padding: .06%;
+    list-style: none;
+}
+
+.linkedin img{
+    margin-left: 40%;
+    margin-top: 16%;
+    width: 70%;
+}
+
+.github img{
+    margin-left: 35%;
+    margin-top: 13%;
+    width: 70%;
+}
+
+.vlr img{
+    width: 40%;
+    margin-top: 2%;
+}
+
+.buttons{
+    margin-top: 1.2%;
+    position: absolute;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(87, 87, 87, 0.637);
+    border-radius: 50px;
+    right: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 650px){
+    .buttons{
+        margin-top: 25%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .contact-content{
+        font-size: smaller;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
