@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sobrinol/website.git/static/css/main.718db5e6.css",
-    "main.js": "/sobrinol/website.git/static/js/main.24aa8f66.js",
-    "static/media/websiteport.png": "/sobrinol/website.git/static/media/websiteport.0a6a0a51490a06d90f06.png",
-    "static/media/snowymountain.jpg": "/sobrinol/website.git/static/media/snowymountain.e654f4c20a4e64fb553f.jpg",
-    "static/media/blueski.jpg": "/sobrinol/website.git/static/media/blueski.b1708e315ef125eea38a.jpg",
-    "static/media/resume.pdf": "/sobrinol/website.git/static/media/resume.6bba0bd5eee47e75efa3.pdf",
-    "static/media/coding.jfif": "/sobrinol/website.git/static/media/coding.7bd20439ffb91d4b21bf.jfif",
-    "index.html": "/sobrinol/website.git/index.html",
-    "main.718db5e6.css.map": "/sobrinol/website.git/static/css/main.718db5e6.css.map",
-    "main.24aa8f66.js.map": "/sobrinol/website.git/static/js/main.24aa8f66.js.map"
+    "main.css": "/website/static/css/main.e168e2af.css",
+    "main.js": "/website/static/js/main.1ba2d71f.js",
+    "static/media/websiteport.png": "/website/static/media/websiteport.0a6a0a51490a06d90f06.png",
+    "static/media/snowymountain.jpg": "/website/static/media/snowymountain.e654f4c20a4e64fb553f.jpg",
+    "static/media/blueski.jpg": "/website/static/media/blueski.b1708e315ef125eea38a.jpg",
+    "static/media/resume.pdf": "/website/static/media/resume.6bba0bd5eee47e75efa3.pdf",
+    "static/media/coding.jfif": "/website/static/media/coding.7bd20439ffb91d4b21bf.jfif",
+    "index.html": "/website/index.html",
+    "main.e168e2af.css.map": "/website/static/css/main.e168e2af.css.map",
+    "main.1ba2d71f.js.map": "/website/static/js/main.1ba2d71f.js.map"
   },
   "entrypoints": [
-    "static/css/main.718db5e6.css",
-    "static/js/main.24aa8f66.js"
+    "static/css/main.e168e2af.css",
+    "static/js/main.1ba2d71f.js"
   ]
 }
