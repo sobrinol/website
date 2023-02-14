@@ -9,8 +9,8 @@ const Projects = () => {
             <h2 className = "proj-title">Projects</h2> 
                 <div className = "banners-grid">
                 <div className = "banner">
-                    <a href = "https://github.com/sobrinol/portfolio-website" target = "_blank">
-                    <img src = {websiteport}>
+                    <a href = "https://github.com/sobrinol/portfolio-website" target = "_blank" rel="noreferrer">
+                    <img src = {websiteport} alt = "">
                     </img>
                     </a>
                     <span className = "line"></span>
@@ -28,7 +28,7 @@ const Projects = () => {
                     </ul>
                 </div>
                 <div className = "banner">
-                    <img src = {websiteport}></img>
+                    <img src = {websiteport} alt = ""></img>
                     <h2>iOS Activity Monitor Widget</h2>
                     <ul>
                         <li>
