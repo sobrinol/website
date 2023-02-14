@@ -1,8 +1,5 @@
 import React from "react";
 import "./ContactStyle.css";
-import linkedin from "./images/linkedin.png";
-import github from "./images/github.png";
-import vlr from "./images/vvlr.png";
 
 
 const Contact = () => {

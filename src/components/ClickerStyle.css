@@ -1,6 +1,6 @@
 .clicker{
-    height: 30px;
-    width: 30px;
+    height: 4%;
+    width: 3%;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -9,9 +9,9 @@
 .container{
     background-color: rgba(42,43,42,255);
     color: rgb(176,176,183);
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 30%;
     text-align: center;
+    padding: 3%;
     transition: all 0.5s ease-out;
 }
 

@@ -1,13 +1,13 @@
 import React from "react";
 import "./AboutStyle.css";
-import cyberhawks from "./images/coding.jfif";
+import coding from "./images/coding.jfif";
 import resume from "./files/resume.pdf";
 
 const About = () => {
     return (
         <div className = 'about'>
             <div className = 'content'>
-                <img className = "cyberhawks" src = {cyberhawks} alt = "cyberhawks"></img>
+                <img className = "coding" src = {coding} alt = "coding"></img>
                 <div className = "sec2">
                     <h2>About</h2>
                     <p>I am a student from Harrison, NJ studying Computer Science at <a href = "https://www.montclair.edu/academics/computer-science/" className = "msu" target = "_blank">Montclair State University!</a></p>

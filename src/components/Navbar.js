@@ -1,5 +1,4 @@
 import { Component } from "react";
-import {MenuData} from "./MenuData";
 import {Link} from "react-scroll";
 import "./NavbarStyles.css";
 

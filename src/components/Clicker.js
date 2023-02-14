@@ -11,7 +11,6 @@ if(visitCount){
     localStorage.setItem("page_view", 1);
 }
 
-
 const Clicker = () =>{
     return(
         <div class = "clicker">

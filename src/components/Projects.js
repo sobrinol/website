@@ -2,9 +2,6 @@ import React from "react";
 import "./ProjectsStyle.css";
 import websiteport from "./images/websiteport.png";
 
-
-
-
 const Projects = () => {
     return(
         <div className = "projects">
