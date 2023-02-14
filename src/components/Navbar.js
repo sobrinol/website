@@ -16,9 +16,9 @@ class Navbar extends Component{
     render(){
         return(
             <nav className = "NavbarItems">
-                <Link to = "home" spy = {true} smooth = {true} offset = {0} duration = {500}  className = "Home">
-                    <p className = "logo">Luis Sobrino</p>
-                </Link>
+                <p className = "logo"><Link to = "home" spy = {true} smooth = {true} offset = {0} duration = {500} className = "LogoC">
+                            Luis Sobrino
+                        </Link></p>
                 <div className = "menu-icons" onClick = {this.handleClick}>
                     <i className = {this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
@@ -38,14 +38,6 @@ class Navbar extends Component{
                             Projects
                         </Link>
                     </li>
-                    <li className = "nav-links">
-                        <Link to = "contact" spy = {true} smooth = {true} offset = {50} duration = {500}  className = "Contact">
-                            Contact
-                        </Link>
-                    </li>
-                        
-                   
-                    
                 </ul>
             </nav>
         );

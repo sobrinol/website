@@ -9,29 +9,13 @@ const Contact = () => {
     return(
         <div className = "contact">
             <div className = "contact-content">
-                <ul>
-                    <li> 
-                        <h2>Contact Me:</h2>
-                    </li>
-                    <li>
-                         - Email: theluissobrino@gmail.com
-                    </li>
-                    <li>
-                        - Phone: (201)-702-0392
-                    </li>
-                </ul>
-                {/* <div className = "buttons">
-                    <a href = "https://www.linkedin.com/in/luis-f-sobrino/" className = "linkedin">
-                        <img src = {linkedin}></img>
-                    </a>
-                    <a href = "https://github.com/sobrinol" className = "github">
-                        <img src = {github}></img>
-                    </a>
-                    <a href = "https://www.vlr.gg/player/32480/blis" className = "vlr">
-                        <img src = {vlr}></img>
-                    </a>
-                    
-                </div> */}
+                <a href = "https://www.linkedin.com/in/luis-f-sobrino/" className = "linkedin" target = "_blank" rel = "noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>                    </a>
+                <a href = "https://github.com/sobrinol" className = "github" target = "_blank" rel = "noreferrer">
+                    <i class="fa-brands fa-github"></i>                </a>
+                <a href = "https://www.vlr.gg/player/32480/blis" className = "vlr" target = "_blank" rel = "noreferrer">
+                    <i class="fa-solid fa-gamepad"></i>
+                </a>
             </div>
         </div>
     )
