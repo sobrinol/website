@@ -9,9 +9,9 @@ import cristo from "./images/websiteport.png";
 const Projects = () => {
     return(
         <div className = "projects">
-            <img src = {bluesky} className = "bluesky"></img>
-            <h2 className = "proj-title">Projects</h2>  
-            <div className = "content">
+            <div className = "project-content">
+            <h2 className = "proj-title">Projects</h2> 
+                <div className = "banners-grid">
                 <div className = "banner">
                     <a href = "https://github.com/sobrinol/portfolio-website" target = "_blank">
                     <img src = {websiteport} className = "img1">
@@ -46,7 +46,7 @@ const Projects = () => {
                         </li>
                     </ul>
                 </div>
-
+                </div>
             </div>
             
         </div>

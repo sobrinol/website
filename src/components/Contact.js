@@ -20,7 +20,7 @@ const Contact = () => {
                         - Phone: (201)-702-0392
                     </li>
                 </ul>
-                <div className = "buttons">
+                {/* <div className = "buttons">
                     <a href = "https://www.linkedin.com/in/luis-f-sobrino/" className = "linkedin">
                         <img src = {linkedin}></img>
                     </a>
@@ -31,7 +31,7 @@ const Contact = () => {
                         <img src = {vlr}></img>
                     </a>
                     
-                </div>
+                </div> */}
             </div>
         </div>
     )
