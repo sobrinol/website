@@ -17,6 +17,10 @@
     
 }
 
+.project-links{
+    text-decoration-color: white;
+}
+
 .banners-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

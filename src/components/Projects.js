@@ -1,6 +1,7 @@
 import React from "react";
 import "./ProjectsStyle.css";
 import websiteport from "./images/websiteport.png";
+import montclarionport from "./images/montclarionport.png";
 
 const Projects = () => {
     return(
@@ -9,12 +10,13 @@ const Projects = () => {
             <h2 className = "proj-title">Projects</h2> 
                 <div className = "banners-grid">
                 <div className = "banner">
-                    <a href = "https://github.com/sobrinol/portfolio-website" target = "_blank">
+                    <a className = "project-links" href = "https://github.com/sobrinol/portfolio-website" target = "_blank">
                     <img src = {websiteport}>
                     </img>
-                    </a>
+                    
                     <span className = "line"></span>
                     <h2>Website Portfolio</h2>
+                    </a>
                     <ul>
                         <li>
                             Utilized ReactJS and its libraries to make a single page portfolio website
@@ -28,20 +30,24 @@ const Projects = () => {
                     </ul>
                 </div>
                 <div className = "banner">
-                    <img src = {websiteport}></img>
-                    <h2>iOS Activity Monitor Widget</h2>
+                    <a className = "project-links" href = "https://themontclarion.org/" target = "_blank">
+                        <img src = {montclarionport}></img>
+                    
+                    <h2>The Montclarion Website</h2>
+                    </a>
                     <ul>
                         <li>
-                            Current Project
+                            Broadened knowledge of website building by using Wordpress to re-build and re-design the Montclarion's website
                         </li>
                         <li>
-                            
+                            Obtained experience in SFTP and site data migration by migrating over 32GB of post data from the old page to the redesigned one
                         </li>
                         <li>
-                            
+                            Learnt about SEO optimization and expanded design knowledge, also accomplished first professional project
                         </li>
                     </ul>
                 </div>
+                
                 </div>
             </div>
             
