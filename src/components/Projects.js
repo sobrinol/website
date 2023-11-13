@@ -43,7 +43,10 @@ const Projects = () => {
                             Obtained experience in SFTP and site data migration by migrating over 32GB of post data from the old page to the redesigned one
                         </li>
                         <li>
-                            Learnt about SEO optimization and expanded design knowledge, also accomplished first professional project
+                            Learnt about SEO optimization and expanded design knowledge
+                        </li>
+                        <li>
+                            Accomplished first professional project
                         </li>
                     </ul>
                 </div>
