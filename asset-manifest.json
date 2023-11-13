@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.19e473c1.css",
+    "main.js": "/website/static/js/main.dcdbbabb.js",
+    "static/media/websiteport.png": "/website/static/media/websiteport.df9e9d46f44cdc23af6a.png",
+    "static/media/snowymountain.jpg": "/website/static/media/snowymountain.e654f4c20a4e64fb553f.jpg",
+    "static/media/montclarionport.png": "/website/static/media/montclarionport.477266420c4740bf107c.png",
+    "static/media/blueski.jpg": "/website/static/media/blueski.b1708e315ef125eea38a.jpg",
+    "static/media/resume.pdf": "/website/static/media/resume.6bba0bd5eee47e75efa3.pdf",
+    "static/media/coding.jfif": "/website/static/media/coding.7bd20439ffb91d4b21bf.jfif",
+    "index.html": "/website/index.html",
+    "main.19e473c1.css.map": "/website/static/css/main.19e473c1.css.map",
+    "main.dcdbbabb.js.map": "/website/static/js/main.dcdbbabb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19e473c1.css",
+    "static/js/main.dcdbbabb.js"
+  ]
+}
