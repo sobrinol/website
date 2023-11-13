@@ -28,12 +28,12 @@ class Navbar extends Component{
                         </Link>
                     </li>
                     <li className = "nav-links">
-                        <Link to = "about" spy = {true} smooth = {true} offset = {-15} duration = {500}  className = "About">
+                        <Link to = "about" spy = {true} smooth = {true} offset = {-70} duration = {500}  className = "About">
                             About
                         </Link>
                     </li>
                     <li className = "nav-links">
-                        <Link to = "projects" spy = {true} smooth = {true} offset = {-50} duration = {500}  className = "Projects">
+                        <Link to = "projects" spy = {true} smooth = {true} offset = {-70} duration = {500}  className = "Projects">
                             Projects
                         </Link>
                     </li>

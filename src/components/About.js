@@ -17,7 +17,7 @@ const About = () => {
                     editing time-managing software was how I was introduced to software and computer science</p>
                     <br></br>
                     <p>Ever since, a child's imagination and sense to engineer has never stopped running</p>
-                    <a href= {resume} className = "resume-button" target = "_blank">View My Resume</a>
+                    <a href= {resume} className = "resume-button" target = "_blank" rel="noreferrer">View My Resume</a>
                 </div>
             </div>
         </div>
