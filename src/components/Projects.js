@@ -2,6 +2,7 @@ import React from "react";
 import "./ProjectsStyle.css";
 import websiteport from "./images/websiteport.png";
 import montclarionport from "./images/montclarionport.png";
+import mcmarketport from "./images/mcmarket.png";
 
 const Projects = () => {
   return (
@@ -46,19 +47,19 @@ const Projects = () => {
           </div>
           <div className="banner">
             <a className="project-links" href="https://github.com/sobrinol/portfolio-website" target="_blank" rel="noreferrer">
-              <img src={websiteport} alt="Website Portfolio" />
+              <img src={mcmarketport} alt="MCMarket" />
               <span className="line"></span>
-              <h2>Website Portfolio</h2>
+              <h2>The Minecraft Cutout Market</h2>
             </a>
             <ul>
               <li>
-                Utilized ReactJS and its libraries to make a single page portfolio website
+                Wrote e-commerce website in PHP with a mySQL database backend, utilized CSS for stlying
               </li>
               <li>
-                Broadened knowledge in web design with ReactJS, Git, NodeJS, and JavaScript
+                Implemented secure user login with hashed passwords using the built-in PHP b-crypt algorithm as well as secure admin login and module
               </li>
               <li>
-                Accomplished my first project, I would still love to add more to this site
+                Added functionality for searching, category based browsing, cart functionality, and a mock checkout function (Could not implement real checkout as it was not asked for)
               </li>
             </ul>
           </div>
