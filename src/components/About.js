@@ -11,12 +11,8 @@ const About = () => {
         <div className="sec2">
           <h2>About</h2>
           <p>I am a student from Harrison, NJ studying Computer Science at <a href="https://www.montclair.edu/academics/computer-science/" className="msu" target="_blank" rel="noreferrer">Montclair State University!</a></p>
-          <p>I am also the captain for the Valorant varsity team at Montclair State University</p>
-          <br></br>
-          <p>As a kid, my father owned a computer cafe; maintaining computers and
-            editing time-managing software was how I was introduced to software and computer science</p>
-          <br></br>
-          <p>Ever since, a child's imagination and sense to engineer has never stopped running</p>
+          <p>As a senior Computer Science major enthusiastic about a future career in software engineering, I thrive on transforming complex problems into efficient, clear, creative, and communicative solutions.</p><br></br>
+          <p>Passionate about crafting real-time systems, I'm eager to collaborate with creative minds, pushing boundaries and innovating.</p>
           <a href={resume} className="resume-button" target="_blank" rel="noreferrer">View My Resume</a>
         </div>
       </div>

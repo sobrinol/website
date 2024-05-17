@@ -3,6 +3,7 @@ import "./ProjectsStyle.css";
 import websiteport from "./images/websiteport.png";
 import montclarionport from "./images/montclarionport.png";
 import mcmarketport from "./images/mcmarket.png";
+import sommaport from "./images/somma.png";
 
 const Projects = () => {
   return (
@@ -17,40 +18,42 @@ const Projects = () => {
             </a>
             <ul>
               <li>
-                Broadened knowledge of website building by using Wordpress to re-build and re-design the Montclarion's website
+                Awarded Overall Best Website at the New Jersey Press Foundation (NJPF) 2024 awards
               </li>
               <li>
-                Obtained experience in SFTP and site data migration by migrating over 32GB of post data from the old page to the redesigned one
+                Worked with Wordpress to re-design The Montclarion's website to appeal to a broader audience and give its interface a smoother UI and UX
               </li>
               <li>
-                Learnt about SEO optimization and expanded design knowledge
+                Obtained experience in SFTP and site data migration by migrating over 32GB of post data from previous production environment to new production
+              </li>
+              <li>
+                Engaged in the reduction of bandwidth by 300% making pages faster to load and an making it easier to navigate the site
               </li>
             </ul>
           </div>
           <div className="banner">
-            <a className="project-links" href="https://github.com/sobrinol/portfolio-website" target="_blank" rel="noreferrer">
-              <img src={websiteport} alt="Website Portfolio" />
+              <img src={sommaport} alt="Somma" />
               <span className="line"></span>
               <h2>SOMMA Music Player</h2>
-            </a>
             <ul>
               <li>
-                Utilized ReactJS and its libraries to make a single page portfolio website
+                Lead, designed, and implemented a full-stack music player web application in a team environment using agile development, showcasing ability to work collaboratively and integrate diverse software systems
               </li>
               <li>
-                Broadened knowledge in web design with ReactJS, Git, NodeJS, and JavaScript
+                Developed a dynamic, tap to the beat game (TTB!) using JavaScript to enhance user engagement
               </li>
               <li>
-                Accomplished my first project, I would still love to add more to this site
+                Applied Firebase Authentication/Functions/Firestore to keep track of real-time, application-wide user leaderboard
+              </li>
+              <li>
+                Utilized Spotify API for web player, searching, populating content, and song analytics/features for TTB! game logic
               </li>
             </ul>
           </div>
           <div className="banner">
-            <a className="project-links" href="https://github.com/sobrinol/portfolio-website" target="_blank" rel="noreferrer">
               <img src={mcmarketport} alt="MCMarket" />
               <span className="line"></span>
               <h2>The Minecraft Cutout Market</h2>
-            </a>
             <ul>
               <li>
                 Wrote e-commerce website in PHP with a mySQL database backend, utilized CSS for stlying
@@ -59,12 +62,12 @@ const Projects = () => {
                 Implemented secure user login with hashed passwords using the built-in PHP b-crypt algorithm as well as secure admin login and module
               </li>
               <li>
-                Added functionality for searching, category based browsing, cart functionality, and a mock checkout function (Could not implement real checkout as it was not asked for)
+                Added functionality for searching, category based browsing, cart functionality, and a mock checkout function (Could not implement real checkout as it violated project policy)
               </li>
             </ul>
           </div>
           <div className="banner">
-            <a className="project-links" href="https://github.com/sobrinol/portfolio-website" target="_blank" rel="noreferrer">
+            <a className="project-links" href="https://github.com/sobrinol/website" target="_blank" rel="noreferrer">
               <img src={websiteport} alt="Website Portfolio" />
               <span className="line"></span>
               <h2>Website Portfolio</h2>
@@ -74,7 +77,7 @@ const Projects = () => {
                 Utilized ReactJS and its libraries to make a single page portfolio website
               </li>
               <li>
-                Broadened knowledge in web design with ReactJS, Git, NodeJS, and JavaScript
+                Broadened knowledge in web design with ReactJS, Git, and JavaScript
               </li>
               <li>
                 Accomplished my first project, I would still love to add more to this site

@@ -8,7 +8,7 @@ const Home = () => {
         <img src = {snowymountain} className = "snowymountain" alt = ""></img>
         <div className = "content">
             <p>Luis Sobrino</p>
-            <p>Computer Science B.S.|2024</p>
+            <p>Computer Science B.S.| August 2024</p>
             
         </div>
         <Clicker/>

@@ -21,7 +21,7 @@
 .banners-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 4rem;
   justify-content: center;
 }
 
