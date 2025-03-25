@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    padding: 1rem;
+    padding-left: 90px;
     position: absolute;
     color: var(--overlay); 
 }
